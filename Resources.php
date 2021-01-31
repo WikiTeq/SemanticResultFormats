@@ -64,7 +64,6 @@ return [
 		'scripts' => 'resources/jquery/multiselect/jquery.multiselect.js',
 		'styles'  => 'resources/jquery/multiselect/jquery.multiselect.css',
 		'dependencies' => [
-			'jquery.ui.core',
 			'jquery.ui.widget'
 		]
 	],
@@ -89,7 +88,6 @@ return [
 		],
 		'styles' => 'resources/jquery/jqgrid/ui.jqgrid.css',
 		'dependencies' => [
-			'jquery.ui.core',
 			'ext.jquery.migration.browser'
 		]
 	],
@@ -172,7 +170,6 @@ return [
 		],
 		'dependencies' => [
 			'ext.srf',
-			'jquery.ui.core',
 			'jquery.ui.widget',
 			'jquery.ui.button',
 			'jquery.ui.slider',
@@ -739,7 +736,6 @@ return [
 			'calendar/resources/ext.srf.widgets.calendarlegend.js',
 		],
 		'dependencies' =>  [
-			'jquery.ui.core',
 			'jquery.ui.widget',
 			'jquery.ui.datepicker',
 			'jquery.ui.slider',
@@ -951,7 +947,6 @@ return [
 		'dependencies' => [
 			'jquery.dataTables',
 			'jquery.dataTables.extras',
-			'jquery.ui.core',
 			'jquery.ui.widget',
 			'jquery.ui.button',
 			'ext.smw.dataItem',
